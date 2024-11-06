@@ -10,5 +10,13 @@ print(albumes_lp)
 # %%
 albumes_lp.keys()
 # %%
-albumes_lp['items']
+albumes_lp['items'][0]['album_group']
+# %%
+
+nombre_album = []
+
+for nombre in albumes_lp['items']:
+    nombre_album.append(nombre['name'])
+# %%
+print(nombre_album)
 # %%
