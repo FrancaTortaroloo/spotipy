@@ -3,7 +3,7 @@ import api_func as api
 
 sp = api.credenciales()
 # %%
-resultados = sp.artist_albums("https://open.spotify.com/intl-es/artist/6XyY86QOPPrYVGvF9ch6wz?si=OcdpDJMlSECx7RWpjoFP5g", album_type = 'album')
+
 #%%
 print(resultados)
 #print(resultados.items())
@@ -31,14 +31,7 @@ id_albums = [['494aUGKXMH5ruXtR3O1a3H'], ['1X472EvsSqH09RyrqbtyXU'], ['3Q9wXhEAX
 
 album_tracks = api.obtener_tracks(sp, id_albums)
 # %%
-album_tracks
-# %%
-audio_features = sp.audio_features(tracks="4XaV4XMROzY1G242gB3Q4K")
 
-# Muestra las características de audio
-for i, features in enumerate(audio_features):
-    print(f"Características de la canción {i+1}:")
-    print(features)
 # %%
 album_id = '494aUGKXMH5ruXtR3O1a3H'
 canciones = api.song_album(album_id)
