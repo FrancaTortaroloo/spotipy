@@ -58,6 +58,24 @@ def obtener_tracks(sp, id_albums):
     
     return album_tracks
 
+def song_info(sp, track_dict):
+    # Lista para almacenar los IDs de las canciones
+    track_ids = list(track_dict.values())
+    
+    # Llama al endpoint para obtener características de audio de varias canciones
+    audio_features_list = sp.audio_features(tracks=track_ids)
+
+    # Claves que queremos eliminar
+    keys_to_discard = ['uri', 'track_href', 'analysis_url']
+
+    # Construye un diccionario con el nombre de la canción y sus características de audio, excluyendo las claves no deseadas
+    audio_features_dict = {
+        track_name: {k: v for k, v in features.items() if k not in keys_to_discard}
+        for track_name, features in zip(track_dict.keys(), audio_features_list)
+    }
+
+    return audio_features_dict
+
 def convertir_csv(album_tracks, filename = 'album_tracks.csv'):
     with open(filename, mode= 'w', newline='') as file:
         writer = csv.writer(file)
