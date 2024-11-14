@@ -18,8 +18,6 @@ def credenciales():
     return sp
 
 
-
-
 def extraer_info(diccionario):
 
     linkin_park = {'id_album': [],
@@ -36,8 +34,6 @@ def extraer_info(diccionario):
     return linkin_park
 
 
-
-
 def obtener_tracks(sp, id_albums):
     
     #creo un diccionario para almacenar los IDs de los albumes y los tracks
@@ -48,50 +44,75 @@ def obtener_tracks(sp, id_albums):
         a_id = a_id[0] #extraer el id del album desde la lista 
         tracks = sp.album_tracks(a_id)
         
-        #creo una lista para lamacenar los nombres de las pistas en una lista
-        tracks_names = []
+        #creo una lista para almacenar los nombres de las pistas
+        tracks_info = []
+   
         for t in tracks['items']:
-            tracks_names.append(t['name'])
+            tracks_info.append({
+                'track_name': t['name'],
+                'track_id': t['id']
+            })
         
         #asociar el ID del álbum con tracks_names
-        album_tracks[a_id] = tracks_names
+        album_tracks[a_id] = tracks_info
     
     return album_tracks
-
-def song_info(sp, track_dict):
-    # Lista para almacenar los IDs de las canciones
-    track_ids = list(track_dict.values())
     
-    # Llama al endpoint para obtener características de audio de varias canciones
-    audio_features_list = sp.audio_features(tracks=track_ids)
 
-    # Claves que queremos eliminar
-    keys_to_discard = ['uri', 'track_href', 'analysis_url']
 
-    # Construye un diccionario con el nombre de la canción y sus características de audio, excluyendo las claves no deseadas
-    audio_features_dict = {
-        track_name: {k: v for k, v in features.items() if k not in keys_to_discard}
-        for track_name, features in zip(track_dict.keys(), audio_features_list)
-    }
+def audio_features(sp, album_tracks):
+    
+    #crear una lista para almacenar los datos en un formato compatible con DF
+    track_data = []
 
-    return audio_features_dict
+    #iterar sobre album y track
+    for album_id, tracks in album_tracks.items():
+        for track in tracks:
+            track_id = track['track_id']
 
-def convertir_csv(album_tracks, filename = 'album_tracks.csv'):
-    with open(filename, mode= 'w', newline='') as file:
-        writer = csv.writer(file)
-        
-        #columnas
-        writer.writerow(['ID Album', 'Track Name'])
-        
-        #insertar los datos
-        for album_id, tracks in album_tracks.items():
-            for track in tracks:
-                writer.writerow([album_id, track])
+            #obtener los audios features
+            #la funcion devuelve una lista, se toma el primer elemento
+            features = sp.audio_features([track_id])[0]
+            
+            if features is not None:
+            #extraer la info 
+                track_info = {
+                    'album_id': album_id,
+                    'track_name': track['track_name'],
+                    'track_id': track['track_id'],
+                    'danceability': features.get('danceability'),
+                    'duration_ms': features.get('duration_ms'),
+                    'energy': features.get('energy'),
+                    'instrumentalness': features.get('instrumentalness'),
+                    'loudness': features.get('loudness'),
+                    'speechiness': features.get('speechiness'),
+                    'tempo': features.get('tempo'),
+                    'valence': features.get('valence')
+
+                }
+            else:
+                # Completa con None si no hay features disponibles
+                track_info = {
+                    'album_id': album_id,
+                    'track_name': track['track_name'],
+                    'track_id': track['track_id'],
+                    'danceability': None,
+                    'duration_ms': None,
+                    'energy': None,
+                    'instrumentalness': None,
+                    'loudness': None,
+                    'speechiness': None,
+                    'tempo': None,
+                    'valence': None
+                }
                 
-    print(f'{filename}')
+                #agregar e diccionario de la canción a la lista
+                track_data.append(track_info)
+                
+    return track_data
 
 
-def dicc_csv(dicc, filename = 'albumes_lp.csv'):
+def convertir_dicc(dicc, filename):
     #obtener las claves para usarlas como encabezados
     keys = dicc.keys()
     
@@ -107,6 +128,14 @@ def dicc_csv(dicc, filename = 'albumes_lp.csv'):
         writer.writerows(rows)
         
     print(f'{filename}')
+
+
+#def convertir_csv(album_tracks, filename):
+
+    
+
+
+
              
 
     
