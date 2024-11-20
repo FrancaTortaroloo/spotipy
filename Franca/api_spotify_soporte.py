@@ -11,7 +11,6 @@ import pandas as pd
 import re
 from datetime import datetime
 
-
 load_dotenv()
 
 
@@ -58,10 +57,10 @@ def get_artist_tracks(sp, artist_url, csv_filename = 'artist_tracks.csv'):
         
         for track in album_tracks:
             track_info = {
+                'track_id': track['id'],
                 'album': album_name,
                 'album_release_date': album_release_date,
                 'track_name': track['name'],
-                'track_id': track['id']
             }
             all_tracks.append(track_info)
             
@@ -84,7 +83,7 @@ def get_track_features(sp, track_ids, csv_filename = 'track_features.csv'):
         
         if features: #evitar errores si no hay caracteristicas disponibles
             track_features = {
-                'id_track': track['id'],
+                'track_id': track['id'],
                 'track_name': track['name'],
                 'artist': [artist['name'] for artist in track['artists']],
                 'danceability': features['danceability'],
@@ -123,17 +122,105 @@ def creacion_bbdd():
         print("Message", err.msg)
 '''
 
-def creacion_tablas():
-    cnx = mysql.connector.connect(database='BD_pruebas')
-    mycursor = cnx.cursor()
+# Crear tabla
+
+def tabla_artist_tracks():
+    db = mysql.connector.connect(
+        host=os.getenv('MYSQL_HOST'),
+        port=int(os.getenv('MYSQL_PORT')),
+        user=os.getenv('MYSQL_USER'),
+        password=os.getenv('MYSQL_PASSWORD'),
+        database = os.getenv('MYSQL_DATABASE')
+    )
+    
+    cursor = db.cursor()
+    
     try:
-        mycursor.execute("CREATE TABLE artist_tracks (album VARCHAR(255), album_release_date DATE, track_name VARCHAR(255), track_id VARCHAR(255))")
-        print(mycursor)
+        cursor.execute(""" 
+    CREATE TABLE artist_tracks (
+	track_id VARCHAR(255) PRIMARY KEY,
+    album VARCHAR (255),
+    album_release_date DATE,
+    track_name VARCHAR(255)    
+)""")
+        print(cursor)
+    except my.sql.connector.Error as err:
+            print(err)
+            print("Error Code:", err.errno)
+            print("SQLSTATE", err.sqlstate)
+            print("Message", err.msg)
+
+#Tabla track_features
+
+def tabla_track_features():
+    db = mysql.connector.connect(
+        host=os.getenv('MYSQL_HOST'),
+        port=int(os.getenv('MYSQL_PORT')),
+        user=os.getenv('MYSQL_USER'),
+        password=os.getenv('MYSQL_PASSWORD'),
+        database = os.getenv('MYSQL_DATABASE')
+    )
+    
+    cursor = db.cursor()
+    
+    try:
+        cursor.execute(""" 
+        CREATE TABLE track_features (
+	    track_id VARCHAR(255),
+        track_name VARCHAR(255),
+        artist VARCHAR(255),
+        danceability FLOAT,
+        energy FLOAT,
+        loudness FLOAT,
+        speechiness FLOAT,
+        instrumentalness FLOAT,
+        valence FLOAT,
+        duration_ms INT,
+        PRIMARY KEY (track_id),
+        FOREIGN KEY (track_id) REFERENCES artist_tracks(track_id)
+)
+   """)
+        print(cursor)
     except mysql.connector.Error as err:
-        print(err)
-        print("Error Code:", err.errno)
-        print("SQLSTATE", err.sqlstate)
-        print("Message", err.msg)
+            print(err)
+            print("Error Code:", err.errno)
+            print("SQLSTATE", err.sqlstate)
+            print("Message", err.msg)
+
+## Insertar datos en las tablas 
+
+def insert_into_table(data, table, column_names):
+    db = mysql.connector.connect(
+        host=os.getenv('MYSQL_HOST'),
+        port=int(os.getenv('MYSQL_PORT')),
+        user=os.getenv('MYSQL_USER'),
+        password=os.getenv('MYSQL_PASSWORD'),
+        database = os.getenv('MYSQL_DATABASE')
+    )
+    
+    cursor = db.cursor()
+    
+    #Seleccionar las columnas de la tabla
+    cursor.execute(f"SELECT * from {table} LIMIT 0; ")
+    column_names = cursor.column_names
+    cursor.fetchall()
+    
+    insert_query = f"INSERT INTO {table} ({', '.join(column_names)}) VALUES ({', '. join(['%s' for _ in column_names])})"
+    values = [tuple(row) for row in data]
+    
+    # .executemany ejecuta el query INSERT INTO con cada uno de los elementos de "values"
+    
+    cursor.executemany(insert_query, values)
+    
+    #guardar los resultados
+    
+    db.commit()
+    
+    print(f"Añadidas: {cursor.rowcount} filas")
+    
+    cursor.fetchall() #vaciar el cursor
+    cursor.close()
+    db.close()
     
     
 
