@@ -104,8 +104,7 @@ def get_track_features(sp, track_ids, csv_filename = 'track_features.csv'):
     
     return df_features
 
-#lo comento porque la bbdd ya esta creada
-'''
+
 
 def creacion_bbdd():
     cnx = mysql.connector.connect(user= os.getenv('MYSQL_USER'), password= os.getenv('MYSQL_PASSWORD'),
@@ -120,7 +119,7 @@ def creacion_bbdd():
         print("Error Code:", err.errno)
         print("SQLSTATE", err.sqlstate)
         print("Message", err.msg)
-'''
+
 
 # Crear tabla
 
