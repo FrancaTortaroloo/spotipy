@@ -2,7 +2,15 @@ import csv
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 import os
+import requests
 from dotenv import load_dotenv
+import json
+import mysql.connector
+from mysql.connector import errorcode
+import pandas as pd
+import re
+from datetime import datetime
+
 
 load_dotenv()
 
@@ -18,120 +26,115 @@ def credenciales():
     return sp
 
 
-def extraer_info(diccionario):
+def url_artista(url):
+    match = re.search(r'artist/([a-zA-Z0-9]+)', url)
+    if match:
+        return match.group(1)
+    else:
+        print("URL no válida.")
+        return None
 
-    linkin_park = {'id_album': [],
-    'nombre_album': [],
-    'cant_tracks': [],
-    'release_date': []}
+
+def get_artist_tracks(sp, artist_url, csv_filename = 'artist_tracks.csv'):
+    #obtiene toda la info de albumes y canciones del artista con su URL y lo guarda en un csv
+    #ID del artista a partir de la URL
+    artist_id = url_artista(artist_url)
+    if not artist_id:
+        print('ID del artista no encontrado')
+        return
     
-    for id in diccionario['items']:
-        linkin_park['id_album'].append([id['id']])
-        linkin_park['nombre_album'].append(id['name'])
-        linkin_park['cant_tracks'].append(id['total_tracks'])
-        linkin_park['release_date'].append(id['release_date'])
+    all_tracks = []
+    #obtener albumes del artista
+    albums = sp.artist_albums(artist_id, album_type = ['album', 'single'])
+    album_items = albums['items']
+    
+    
+    
+    for album in album_items:
+        album_id = album['id']
+        album_name = album['name']
+        album_release_date = album['release_date']
+        album_tracks = sp.album_tracks(album_id)['items']
         
-    return linkin_park
-
-
-def obtener_tracks(sp, id_albums):
-    
-    #creo un diccionario para almacenar los IDs de los albumes y los tracks
-    album_tracks = {}
-    
-    #extraer los nombres de los tracks de cada album
-    for a_id in id_albums:
-        a_id = a_id[0] #extraer el id del album desde la lista 
-        tracks = sp.album_tracks(a_id)
-        
-        #creo una lista para almacenar los nombres de las pistas
-        tracks_info = []
-   
-        for t in tracks['items']:
-            tracks_info.append({
-                'track_name': t['name'],
-                'track_id': t['id']
-            })
-        
-        #asociar el ID del álbum con tracks_names
-        album_tracks[a_id] = tracks_info
-    
-    return album_tracks
-    
-
-
-def audio_features(sp, album_tracks):
-    
-    #crear una lista para almacenar los datos en un formato compatible con DF
-    track_data = []
-
-    #iterar sobre album y track
-    for album_id, tracks in album_tracks.items():
-        for track in tracks:
-            track_id = track['track_id']
-
-            #obtener los audios features
-            #la funcion devuelve una lista, se toma el primer elemento
-            features = sp.audio_features([track_id])[0]
+        for track in album_tracks:
+            track_info = {
+                'album': album_name,
+                'album_release_date': album_release_date,
+                'track_name': track['name'],
+                'track_id': track['id']
+            }
+            all_tracks.append(track_info)
             
-            if features is not None:
-            #extraer la info 
-                track_info = {
-                    'album_id': album_id,
-                    'track_name': track['track_name'],
-                    'track_id': track['track_id'],
-                    'danceability': features.get('danceability'),
-                    'duration_ms': features.get('duration_ms'),
-                    'energy': features.get('energy'),
-                    'instrumentalness': features.get('instrumentalness'),
-                    'loudness': features.get('loudness'),
-                    'speechiness': features.get('speechiness'),
-                    'tempo': features.get('tempo'),
-                    'valence': features.get('valence')
-
-                }
-            else:
-                # Completa con None si no hay features disponibles
-                track_info = {
-                    'album_id': album_id,
-                    'track_name': track['track_name'],
-                    'track_id': track['track_id'],
-                    'danceability': None,
-                    'duration_ms': None,
-                    'energy': None,
-                    'instrumentalness': None,
-                    'loudness': None,
-                    'speechiness': None,
-                    'tempo': None,
-                    'valence': None
-                }
-                
-                #agregar e diccionario de la canción a la lista
-                track_data.append(track_info)
-                
-    return track_data
-
-
-def convertir_dicc(dicc, filename):
-    #obtener las claves para usarlas como encabezados
-    keys = dicc.keys()
+    #guardar los datos en csv 
     
-    #abrir archivo csv para escribir
-    with open (filename, mode = 'w', newline = '')as file:
-        writer = csv.writer(file)
-        
-        #nombre de las columnas
-        writer.writerow(keys)
-        
-        #completar las filas con los datos
-        rows = zip(*dicc.values())
-        writer.writerows(rows)
-        
-    print(f'{filename}')
+    df_tracks = pd.DataFrame(all_tracks)
+    df_tracks.to_csv(csv_filename, index = False)
+    print(f'Datos de albumes y canciones guardados en {csv_filename}')
+    
+    return df_tracks #devolver el df por si se necesita hacer mas operaciones
 
+def get_track_features(sp, track_ids, csv_filename = 'track_features.csv'):
+    #obtiene los features de una lista de canciones y lo guarda en un csv
+    
+    all_features = []
+    
+    for track_id in track_ids:
+        track = sp.track(track_id)
+        features = sp.audio_features(track_id)[0]
+        
+        if features: #evitar errores si no hay caracteristicas disponibles
+            track_features = {
+                'id_track': track['id'],
+                'track_name': track['name'],
+                'artist': [artist['name'] for artist in track['artists']],
+                'danceability': features['danceability'],
+                'energy': features['energy'],
+                'loudness': features['loudness'],
+                'speechiness': features['speechiness'],
+                'intrumentalness': features['instrumentalness'],
+                'valence': features['valence'],
+                'duration_ms': features['duration_ms']
+            }
+            
+            all_features.append(track_features)
+            
+    #Guardar los datos en un csv
+    df_features = pd.DataFrame(all_features)
+    df_features.to_csv(csv_filename, index = False)
+    print(f'Datos de features guardados en {csv_filename}')
+    
+    return df_features
 
-#def convertir_csv(album_tracks, filename):
+#lo comento porque la bbdd ya esta creada
+'''
 
+def creacion_bbdd():
+    cnx = mysql.connector.connect(user= os.getenv('MYSQL_USER'), password= os.getenv('MYSQL_PASSWORD'),
+                              host=os.getenv('MYSQL_HOST'))
+    mycursor = cnx.cursor()
+    
+    try:
+        mycursor.execute("CREATE DATABASE BD_linkin_park")
+        print(mycursor)
+    except mysql.connector.Error as err:
+        print(err)
+        print("Error Code:", err.errno)
+        print("SQLSTATE", err.sqlstate)
+        print("Message", err.msg)
+'''
+
+def creacion_tablas():
+    cnx = mysql.connector.connect(database='BD_pruebas')
+    mycursor = cnx.cursor()
+    try:
+        mycursor.execute("CREATE TABLE artist_tracks (album VARCHAR(255), album_release_date DATE, track_name VARCHAR(255), track_id VARCHAR(255))")
+        print(mycursor)
+    except mysql.connector.Error as err:
+        print(err)
+        print("Error Code:", err.errno)
+        print("SQLSTATE", err.sqlstate)
+        print("Message", err.msg)
+    
     
 
 

@@ -1,0 +1,366 @@
+id_track,track_name,artist,danceability,energy,loudness,speechiness,intrumentalness,valence,duration_ms
+1uhces29ApKuQWFdpiUsvH,From Zero (Intro),['Linkin Park'],0.337,0.139,-18.884,0.165,5.2e-06,0.0,22174
+1EDPVGbyPKJPeGqATwXZvN,The Emptiness Machine,['Linkin Park'],0.466,0.872,-3.344,0.0336,0.0,0.806,190428
+5mFZipkX1HZ4Idz5LOWpzq,Cut the Bridge,['Linkin Park'],0.622,0.936,-2.72,0.067,3.09e-06,0.743,228607
+2HBBM75Xv3o2Mqdyh1NcM0,Heavy Is the Crown,['Linkin Park'],0.571,0.928,-3.725,0.0453,0.0,0.488,167012
+3k4gjmYNJugQRlh2aounZ9,Over Each Other,['Linkin Park'],0.55,0.789,-4.634,0.0382,0.0,0.317,170445
+7BkzAHnNW7WfrT4NcLaUDx,Casualty,['Linkin Park'],0.576,0.948,-4.082,0.173,0.00838,0.5,140916
+7diOv6wm3ngF7Vt6ubK0Sf,Overflow,['Linkin Park'],0.515,0.654,-6.349,0.0492,0.000103,0.306,211027
+6i5qhmmF9UNUBRyrPSGn4m,Two Faced,['Linkin Park'],0.51,0.945,-5.405,0.0804,4.8e-06,0.323,183584
+0J1IJsMbKWb5g2sJArTkGF,Stained,['Linkin Park'],0.516,0.868,-5.148,0.0969,0.0,0.375,185415
+7M8eZBRTD9QNasEVReEM0H,IGYEIH,['Linkin Park'],0.442,0.968,-3.417,0.126,1.53e-05,0.308,209084
+6aCBjSb87RizdH8lVBIRW7,Good Things Go,['Linkin Park'],0.541,0.757,-5.37,0.0421,0.0,0.307,209845
+4XaV4XMROzY1G242gB3Q4K,Crawling (Instrumental),['Linkin Park'],0.622,0.632,-9.329,0.0337,0.753,0.35,209034
+46ppIcCWeyCeNS6BbveSc0,Faint (Instrumental),['Linkin Park'],0.562,0.929,-5.818,0.0806,0.662,0.519,162727
+4ySeTJOYb31uzSdIMw0U3x,Numb / Encore (Instrumental),"['JAY-Z', 'Linkin Park']",0.728,0.375,-12.569,0.0356,0.243,0.637,205234
+4B1Uaz5w9HGXtIigc3zyQa,Papercut (Instrumental),['Linkin Park'],0.499,0.816,-6.206,0.0561,0.761,0.708,184347
+3zruk8xsxvYcLOsYjFNl8E,Breaking the Habit (Instrumental),['Linkin Park'],0.515,0.833,-7.026,0.0265,0.946,0.465,195388
+6RUv6gg1Jv1NMT8N5Jv2Wd,In the End (Instrumental),['Linkin Park'],0.558,0.736,-7.131,0.0299,0.899,0.282,216347
+6rmBv18D2JgQy0GWIRwwST,Bleed It Out (Instrumental),['Linkin Park'],0.502,0.872,-6.316,0.0281,0.746,0.562,164466
+7sg2aQZFGgIhDuOZVUGWYO,Somewhere I Belong (Instrumental),['Linkin Park'],0.397,0.875,-6.123,0.0315,0.477,0.334,214018
+6y7mwRBftYgFiAk2QRYOi1,Waiting for the End (Instrumental),['Linkin Park'],0.6,0.904,-6.872,0.07,0.841,0.144,231157
+0L0yA1cbvbeXUYkrCGa1Zd,CASTLE OF GLASS (Instrumental),['Linkin Park'],0.671,0.905,-6.481,0.027,0.888,0.696,205395
+0yL46UtgzVtn7npJVQBzSe,One More Light (Instrumental),['Linkin Park'],0.465,0.115,-18.91,0.0409,0.872,0.188,255451
+72yk9NeUJJZXSGB0SypJF1,BURN IT DOWN (Instrumental),['Linkin Park'],0.521,0.988,-6.463,0.0473,0.959,0.573,230259
+5ej37Qdesrc0qmylxRN0xN,What I've Done (Instrumental),['Linkin Park'],0.636,0.895,-6.613,0.0315,0.757,0.393,208367
+5dagCN1KHDSj44Cu2FuFYh,QWERTY (Instrumental),['Linkin Park'],0.546,0.762,-6.402,0.0341,0.877,0.478,201340
+0Lc9LYNJ7X2em2ZGpkuWNf,One Step Closer (Instrumental),['Linkin Park'],0.46,0.927,-6.358,0.0402,0.775,0.463,155642
+6c4Jee41407rtxPMeBUEe5,New Divide (Instrumental),['Linkin Park'],0.537,0.767,-4.697,0.034,0.83,0.297,269867
+5E89LIlHBmsOhDTu1KoIE5,Leave Out All The Rest (Instrumental),['Linkin Park'],0.489,0.486,-8.28,0.0308,0.892,0.217,199216
+339gEiwLYqFOYxpFfZmgyN,Lost (Instrumental),['Linkin Park'],0.577,0.75,-6.628,0.0353,0.734,0.409,201321
+17uGK232T2oqGTYvh8R2Z3,Numb (Instrumental),['Linkin Park'],0.481,0.836,-7.399,0.031,0.857,0.119,186199
+3OS7J9Yfp16foCfr8u83bX,Friendly Fire (Instrumental),['Linkin Park'],0.572,0.607,-7.826,0.0332,0.842,0.0518,176658
+4yQI9wjNF0gYUHwjNpCLQ9,Crawling,['Linkin Park'],0.576,0.659,-6.387,0.0345,1.23e-05,0.325,209034
+5C85MPxFAZE5tUcJQB1P30,Faint,['Linkin Park'],0.534,0.974,-4.11,0.158,0.0,0.539,162689
+1h94Gt9wygZ7vPFR07fYPG,Numb / Encore,"['JAY-Z', 'Linkin Park']",0.684,0.752,-5.788,0.147,0.0,0.791,206301
+3MLGWsrThUbVq4Fsr8RIjc,Papercut,['Linkin Park'],0.513,0.877,-4.608,0.0974,0.0,0.734,186219
+6AaZ2E0giZiHkWVfL8hjF1,Breaking the Habit,['Linkin Park'],0.555,0.831,-4.422,0.0328,0.0,0.547,197177
+5DXGHZ3QDh0FcLXPMWTv9U,In the End,['Linkin Park'],0.535,0.856,-5.055,0.0471,0.0,0.347,216294
+3ngEujGXz33Imh6JkEeFfs,Bleed It Out,['Linkin Park'],0.515,0.957,-4.252,0.053,0.0,0.596,164457
+3pScwKYtxX21CQBlPr1dx7,Somewhere I Belong,['Linkin Park'],0.424,0.929,-4.201,0.0702,0.0,0.39,214074
+4g9Rm7ST0lTTJDpQzac48P,Waiting for the End,['Linkin Park'],0.488,0.962,-4.157,0.137,1.18e-06,0.323,231157
+5oQNTH2WkhdsCEETc5XriH,CASTLE OF GLASS,['Linkin Park'],0.615,0.913,-4.034,0.0276,0.0015,0.66,205395
+5mvBULQmmnCYlUVTPt5cEU,One More Light,['Linkin Park'],0.429,0.207,-11.092,0.0408,0.0,0.169,255082
+2YRLXsjjIO7oj1OIEWnmTT,BURN IT DOWN,['Linkin Park'],0.578,0.971,-4.978,0.0506,0.0,0.562,230259
+3ZihDcSeGEhZPT2zBCt3xo,What I've Done,['Linkin Park'],0.627,0.915,-5.755,0.0323,0.0,0.32,207003
+5njHkFji5oL7cYrbuHZyaC,QWERTY,['Linkin Park'],0.561,0.855,-4.984,0.0449,0.000211,0.461,201341
+1PVB2vPslanitCuhjvnqxc,One Step Closer,['Linkin Park'],0.468,0.976,-4.732,0.0528,5.88e-06,0.396,155647
+5wmkQbOUTLjnDsdLeNgtO3,New Divide,['Linkin Park'],0.493,0.792,-3.877,0.0358,1.05e-06,0.365,269099
+31ymMAWySGsMvIBZ8ry65u,Leave Out All The Rest,['Linkin Park'],0.503,0.626,-6.376,0.0341,3.17e-06,0.225,199205
+16dALKZMgCknDLnGZI9emn,Lost,['Linkin Park'],0.596,0.798,-4.63,0.0285,0.0,0.459,199342
+2ULknvs2DJ0L0hLRDYunor,Numb,['Linkin Park'],0.456,0.831,-4.589,0.0417,0.0,0.249,187508
+7hPBYRCHcBUMT7I5V9Go2s,Friendly Fire,['Linkin Park'],0.278,0.68,-5.289,0.0601,0.0,0.252,176901
+16XJqMv1M2D1seDcPEznfY,Don't Stay,['Linkin Park'],0.383,0.992,-3.41,0.131,0.0,0.673,188113
+1Fv4xhjAOSOV70kE3DW6n8,Somewhere I Belong,['Linkin Park'],0.424,0.929,-4.201,0.0702,0.0,0.39,214074
+4eSduoSXJ2F5k39DVAyYGd,Lying from You,['Linkin Park'],0.488,0.94,-3.671,0.161,0.0,0.678,175195
+0YWc5YdBjmGEuojaMJVyRD,Hit the Floor,['Linkin Park'],0.715,0.959,-4.042,0.218,0.0,0.867,164310
+3UfcKpYlyZCnwuIMYApu1f,Easier to Run,['Linkin Park'],0.519,0.828,-4.79,0.0334,0.0,0.282,204185
+5tde01mQCdZBAq9FvtjQRo,Faint,['Linkin Park'],0.532,0.973,-4.058,0.154,0.0,0.503,162206
+1KEQ9UIwVhQ3dCzKJ3ORFr,Figure.09,['Linkin Park'],0.487,0.936,-4.032,0.0494,0.0,0.62,197627
+2NieHu1SopLwluQhOmVPow,Breaking the Habit,['Linkin Park'],0.556,0.839,-4.311,0.0311,0.0,0.549,196302
+3CkopQ1dNbKfqQdVHBLv9e,From the Inside,['Linkin Park'],0.431,0.946,-3.515,0.0628,0.0,0.295,175647
+1PWn56rzwuvoRGLDJbphO5,Nobody's Listening,['Linkin Park'],0.444,0.81,-3.972,0.286,0.0,0.376,179041
+5KU5vKLUAUZJEiIoDLmOqC,Session,['Linkin Park'],0.58,0.948,-5.775,0.0491,0.81,0.207,144829
+0TTN18FVx6Ibfqzotyneok,Numb,['Linkin Park'],0.456,0.831,-4.589,0.0417,0.0,0.249,187508
+6z2GJGDgxen8Ld0DzQmPuD,Don't Stay - Live In Texas,['Linkin Park'],0.459,0.995,-3.649,0.119,1.44e-06,0.373,199160
+3Euo2ZxMvqGBf5nLSjvRXF,Somewhere I Belong - Live In Texas,['Linkin Park'],0.38,0.98,-4.427,0.108,0.0,0.375,215387
+34Ptq4NkBUM5eVVtv6FJex,Lying from You - Live In Texas,['Linkin Park'],0.406,0.981,-4.484,0.244,0.0,0.51,186493
+3wdjj73kg3kBs2tfC274H4,Papercut - Live In Texas,['Linkin Park'],0.46,0.996,-4.377,0.195,0.0,0.368,186320
+0YDorm2AWuGLQYkSoLl7hZ,Points of Authority - Live In Texas,['Linkin Park'],0.55,0.978,-4.291,0.0806,1.4e-06,0.459,205547
+05kLqY17FuCOKRbgl7q2bn,Runaway - Live In Texas,['Linkin Park'],0.603,0.963,-4.361,0.0964,7.9e-06,0.501,187467
+5D4p2dJlcU11E7IYiKdNOQ,Faint - Live In Texas,['Linkin Park'],0.562,0.982,-4.588,0.0944,3.14e-06,0.377,166373
+6TcdhSTgYnWvHVLxoYEDPQ,From the Inside - Live In Texas,['Linkin Park'],0.453,0.964,-5.314,0.0882,0.673,0.474,180720
+63dTErJefSRcFYSJVPF88g,Figure.09 - Live In Texas,['Linkin Park'],0.505,0.97,-4.712,0.12,0.0,0.421,231373
+0YLKCq0pqNE6pF0OuioD9I,With You - Live In Texas,['Linkin Park'],0.494,0.992,-3.804,0.242,1.66e-05,0.264,199920
+7rBF49vQ7ZPfwv7fWiaeip,By Myself - Live In Texas,['Linkin Park'],0.557,0.99,-4.142,0.133,0.00111,0.235,247373
+2S7ZDc1yUuDKHGhmDiO3VI,P5hng Me A*Wy - Live In Texas,['Linkin Park'],0.532,0.846,-5.887,0.04,0.00929,0.324,304947
+6TslgOTNIq6EqOeEw3F04x,Numb - Live In Texas,['Linkin Park'],0.553,0.839,-5.634,0.0333,0.00155,0.121,194253
+7fhmRWXboTV7xVKRFpPyIU,Crawling - Live In Texas,['Linkin Park'],0.553,0.768,-5.151,0.0456,0.000827,0.153,221693
+31D359wPGqyI0ZyJSF7xlV,In the End - Live In Texas,['Linkin Park'],0.484,0.941,-6.243,0.0844,0.0549,0.162,243867
+24Z9OmvvH4ADM5BwTk9l72,A Place for My Head - Live In Texas,['Linkin Park'],0.539,0.959,-5.729,0.215,0.0,0.184,236907
+6jLyCL9maXZRwhnKQXt01m,One Step Closer - Live In Texas,['Linkin Park'],0.455,0.968,-4.569,0.22,1.5e-06,0.354,241267
+2asQi9U32aKSW8o8481zXC,Session - Live In Nottingham 2003,['Linkin Park'],0.389,0.881,-13.96,0.122,0.887,0.216,73882
+45E8GFawcztmdstn8DDFAi,Don't Stay - Live In Nottingham 2003,['Linkin Park'],0.478,0.949,-7.09,0.141,0.0,0.204,195488
+1rIh1LMNXePhDx9kkFDE5S,Somewhere I Belong - Live In Nottingham 2003,['Linkin Park'],0.406,0.948,-7.253,0.0607,0.0,0.369,217346
+25HMTmAmRPM8onEtlFrRcT,Lying from You - Live In Nottingham 2003,['Linkin Park'],0.468,0.907,-8.027,0.142,0.0,0.49,219650
+3OZ2BtIAakEbQCTpKwn2Au,Papercut - Live In Nottingham 2003,['Linkin Park'],0.486,0.961,-7.122,0.05,0.0,0.499,186090
+2FI7xtwWJHG4AcHz8BuNPd,Points of Authority - Live In Nottingham 2003,['Linkin Park'],0.383,0.926,-7.861,0.0962,0.0,0.399,205757
+1YAGMUCRo4cqUlTApWtbjd,Runaway - Live In Nottingham 2003,['Linkin Park'],0.367,0.808,-8.481,0.0705,0.0,0.259,232441
+16unRiTVJa22jShzcAh5ga,Faint - Live In Nottingham 2003,['Linkin Park'],0.557,0.964,-7.159,0.0861,0.0,0.434,166431
+4LuRObsPEDCYkfxm9VdzNQ,From the Inside - Live In Nottingham 2003,['Linkin Park'],0.46,0.882,-7.664,0.0408,0.000135,0.264,179667
+5OP19WdWtkC1okFZko3qFf,Hit the Floor - Live In Nottingham 2003,['Linkin Park'],0.577,0.812,-9.245,0.131,0.0,0.522,194195
+1N4GYBrwbybwCyK8MOSdFI,With You - Live In Nottingham 2003,['Linkin Park'],0.526,0.911,-8.287,0.0784,0.0,0.323,225371
+1T5xaBwO0VFy7Ab4lHBSdm,Crawling - Live In Nottingham 2003,['Linkin Park'],0.533,0.706,-8.587,0.0377,0.0,0.138,240184
+5mP6DTsuTAYmVRwbcB6kM4,In the End - Live In Nottingham 2003,['Linkin Park'],0.252,0.875,-8.741,0.186,2.45e-05,0.191,270731
+2kWQlCYuLJPUgxxwlaESu8,Easier to Run - Live In Nottingham 2003,['Linkin Park'],0.461,0.736,-8.373,0.0333,0.0,0.225,244584
+1lKD0XBHTdr0zB8BFQYRfm,A Place for My Head - Live In Nottingham 2003,['Linkin Park'],0.361,0.877,-8.896,0.117,0.0,0.27,238407
+4ukioc40xBwDg5WAUaVa5Y,One Step Closer - Live In Nottingham 2003,['Linkin Park'],0.345,0.918,-8.192,0.116,6.4e-06,0.234,243843
+1Hzh01woNIZR6PUm9633rs,A.06,['Linkin Park'],0.56,0.914,-5.712,0.0448,0.898,0.527,54187
+0H9SbdtxCAWQVuhdbqw0b3,Pretty Birdy - Somewhere I Belong 2002 Demo,['Linkin Park'],0.352,0.954,-4.165,0.0541,0.783,0.391,245187
+3o7OVEjVLHxhbSUxXBwPpP,Sold My Soul to Yo Mama,['Linkin Park'],0.81,0.963,-3.908,0.0435,0.162,0.949,118080
+1JDsbjR2LSPfIpQ5XCS16W,Standing in the Middle,['Linkin Park'],0.741,0.914,-3.631,0.239,0.0,0.756,201678
+49WLgjpFzrF2gCBZzWw1iv,Papercut,['Linkin Park'],0.524,0.94,-3.994,0.111,0.0,0.664,184867
+1qIQeMHFw09UjBpgrsrdys,One Step Closer,['Linkin Park'],0.492,0.969,-4.419,0.0492,1.36e-06,0.538,157333
+6NPVVeHetUBa6NhYSaMo1w,With You,['Linkin Park'],0.423,0.978,-4.004,0.303,0.0,0.361,203267
+0hSDsJ6OC0O4pih8jgT5m7,Points of Authority,['Linkin Park'],0.569,0.97,-3.886,0.196,0.0,0.435,200240
+1BfzeCKzo8xSvJcYLmnP8f,Crawling,['Linkin Park'],0.581,0.699,-5.564,0.0337,3.74e-06,0.282,208960
+3uO2ODjs7Lqp1DVZ4LtouE,Runaway,['Linkin Park'],0.631,0.873,-4.748,0.0653,0.0,0.467,183973
+6mqhbwoBgTcw1lVqysIlTC,By Myself,['Linkin Park'],0.545,0.935,-4.159,0.173,0.00279,0.339,189800
+6zyrb7dW1IR4Hrc8nXJsln,In the End,['Linkin Park'],0.555,0.844,-6.567,0.0553,0.0,0.464,216800
+1c162st6mztGwnCllaJhcU,A Place for My Head,['Linkin Park'],0.603,0.908,-5.254,0.184,0.0,0.458,184640
+3QIPgdsvQpX6caei3iNJCe,Forgotten,['Linkin Park'],0.616,0.947,-3.817,0.11,0.0,0.498,194427
+0aOXvRZZJ2i874kZCvb7Z0,Cure for the Itch,['Linkin Park'],0.752,0.677,-7.376,0.214,0.0509,0.848,157200
+4GQSDgwPgIswz5WvFp7ROO,Pushing Me Away,['Linkin Park'],0.483,0.913,-4.305,0.0425,0.0,0.279,191440
+5crDbY4BQ6pDjYCfG1kyyj,Opening,['Linkin Park'],0.181,0.163,-16.565,0.0384,0.335,0.0352,67560
+6NDBZEa5nz6sy1CbCIrbe0,Pts.Of.Athrty - Jay Gordon Reanimation,['Linkin Park'],0.507,0.973,-5.085,0.109,0.00211,0.255,225520
+7AicotfpDogKGfS6N5S3fF,Enth E Nd (Kutmasta Kurt Reanimation) [feat. Motion Man],"['Linkin Park', 'Motion Man']",0.747,0.803,-7.388,0.0485,0.000239,0.884,239960
+6Dh5GC7gUnOVzXBn6SKqly,[Chali],['Linkin Park'],0.818,0.514,-22.725,0.494,3.03e-06,0.57,23747
+5Jq2dNGLV7MYp7JUc4Jega,Frgt/10 (Alchemist Reanimation) [feat. Chali 2na],"['Linkin Park', 'Chali 2na', 'The Alchemist']",0.64,0.747,-6.957,0.06,0.00506,0.615,211520
+0NiLFbppboKW7fmsG1fKmF,P5hng Me A*wy (Mike Shinoda Reanimation) [feat. Stephen Richards],"['Linkin Park', 'Stephen Richards']",0.543,0.77,-6.383,0.0419,0.0101,0.577,277973
+3z4YazJkbpzlQCLFeeXrPi,Plc.4 Mie Hæd (Amp Live Reanimation) [feat. Zion],"['Linkin Park', 'Zion I']",0.64,0.902,-7.068,0.18,0.0,0.523,260747
+46aLUOdBtEab6wAuMohYy9,X-Ecutioner Style (feat. Black Thought),"['Linkin Park', 'Black Thought', 'Roc Raida', 'Sean C']",0.757,0.978,-3.749,0.215,0.000821,0.539,109493
+2hJj4BdCUJxBETb9OWP9nV,H! Vltg3 (Evidence Reanimation) [feat. Pharoahe Monch and DJ Babu],"['Linkin Park', 'DJ Babu', 'Pharoahe Monch', 'Evidence']",0.667,0.942,-4.166,0.238,0.0,0.605,210733
+3nqpkABou9JCeWdSr6xsYC,[Riff Raff],['Linkin Park'],0.474,0.295,-20.233,0.108,1.14e-05,0.961,21907
+3R2GJThtA7RLFP21ko1Cvd,Wth>You (Chairman Hahn Reanimation) [feat. Aceyalone],"['Linkin Park', 'Aceyalone', 'Chairman Hahn']",0.58,0.982,-3.428,0.0731,4.57e-06,0.511,252307
+3du26wz3Rqcdooh2cli8yv,Ntr\mssion,['Linkin Park'],0.451,0.0585,-25.115,0.155,0.969,0.0,29400
+78jQ3BOkQyEDH5FLfaXIeW,Ppr:kut (Cheapshot and Jubacca Reanimation) [feat. Rasco and Planet Asia],"['Linkin Park', 'Planet Asia', 'Rasco']",0.562,0.897,-6.319,0.113,0.000864,0.599,206347
+0bRLMjdzjWSsX8joI3jqZ6,Rnw@y (Backyard Bangers Reanimation) [feat. Phoenix Orion],"['Linkin Park', 'Phoenix Orion']",0.603,0.921,-4.633,0.0604,0.000288,0.545,193400
+4BFMKKGTSTlazezCdELF9X,My<Dsmbr (Mickey P. Reanimation) [feat. Kelli Ali],"['Linkin Park', 'Kelli Ali']",0.658,0.81,-8.048,0.0344,0.487,0.225,257587
+7toixYEruTisOFLKrLI9pX,[Stef],['Linkin Park'],0.0,0.305,-21.081,0.0,0.0,0.0,10027
+1JJ0CGEo4MOxsU7FAvfkpq,By_Myslf (Josh Abraham and Mike Shinoda Reanimation),['Linkin Park'],0.553,0.968,-4.915,0.102,0.184,0.256,222440
+12FdO9DtYQ22AMRK38rMYF,Kyur4 Th Ich (Chairman Hahn Reanimation),['Linkin Park'],0.672,0.974,-5.604,0.113,0.656,0.297,152533
+7e5Tro36k4sZgtycrvFFHs,1Stp Klosr (The Humble Brothers Reanimation) [feat. Jonathan Davis],"['Linkin Park', 'Jonathan Davis']",0.472,0.929,-5.81,0.0455,0.414,0.247,346040
+6UHfIy0iHrQ8iDXvUJFkQq,Krwlng (Mike Shinoda Reanimation) [feat. Aaron Lewis],"['Linkin Park', 'Aaron Lewis']",0.429,0.528,-7.567,0.0293,0.00648,0.0468,340253
+77QlaJaOiR6cAl8zeF0evm,Carousel - Hybrid Theory EP,['Linkin Park'],0.603,0.87,-6.479,0.0643,0.0299,0.282,182654
+1tC6pl3ivmgcxSj4PGmiJR,Technique (Short) - Hybrid Theory EP,['Linkin Park'],0.673,0.921,-7.882,0.183,0.00978,0.269,39031
+67i8fR6kdjaVzSPrqexHAC,Step Up - Hybrid Theory EP,['Linkin Park'],0.706,0.944,-4.856,0.156,0.0,0.448,234642
+0h4BEv6xL4dkHhdUP3GaOU,And One - Hybrid Theory EP,['Linkin Park'],0.389,0.881,-5.037,0.0993,0.153,0.332,269882
+7b9d6ZvzsRGy9YehdsLwhQ,High Voltage - Hybrid Theory EP,['Linkin Park'],0.754,0.785,-3.598,0.0737,7.9e-05,0.771,209834
+3KS0xvLYYnhpGWLiMyv360,Part of Me - Hybrid Theory EP,['Linkin Park'],0.535,0.646,-10.128,0.135,0.0852,0.0919,764503
+2nNxukFZizofaXAZzNPATS,One Step Closer (Rock Mix) - B-Side Rarities,['Linkin Park'],0.507,0.979,-3.2,0.0504,4.97e-06,0.509,157246
+0eJi1RvFCgcd555HkmsK8j,It's Goin' Down (feat. Mike Shinoda and Mr. Hahn) - B-Side Rarities,"['X-Ecutioners', 'Mike Shinoda', 'Mr. Hahn']",0.677,0.905,-2.955,0.264,0.0148,0.867,249689
+5lfno3QZzPZ0g7p2ulLBP5,Papercut (Live from the BBC) - B-Side Rarities,['Linkin Park'],0.465,0.976,-2.532,0.167,0.000567,0.651,187425
+3uPwjOj3eqVQChOTHpMYKN,In The End (Live BBC Radio One) - B-Side Rarities,['Linkin Park'],0.579,0.903,-3.398,0.0466,2.51e-06,0.607,205567
+7y8Sjxbfmg4mahaobhAirB,Points of Authority (Live BBC Radio One) - B-Side Rarities,['Linkin Park'],0.267,0.971,-3.516,0.174,0.00171,0.557,204741
+22LEp6BaCNmteFWIGBoGx2,High Voltage - B-Side Rarities,['Linkin Park'],0.589,0.985,-2.295,0.241,2.29e-06,0.239,224686
+6bObaYMFvVT1CilvkuVXzI,Step Up (1999 Demo) - B-Side Rarities,['Linkin Park'],0.698,0.965,-3.018,0.182,0.0,0.475,234537
+3fY3mY4ER7KIuoz4yTvq9G,My December - B-Side Rarities,['Linkin Park'],0.731,0.702,-5.997,0.0238,0.0155,0.669,261054
+6ply1w2Q2wKTu4sNZpRGTf,"A Place for My Head (Live at Docklands Arena, London) - B-Side Rarities",['Linkin Park'],0.241,0.984,-2.875,0.126,0.000534,0.21,190480
+45f2AYPLVviUWTG3COknLO,"Points of Authority (Live at Docklands Arena, London) - B-Side Rarities",['Linkin Park'],0.358,0.972,-2.617,0.0547,1.94e-06,0.361,209331
+4qU24OCoz7oG5KghT4FpqT,"Papercut (Live at Docklands Arena, London) - B-Side Rarities",['Linkin Park'],0.33,0.986,-2.864,0.209,0.000615,0.247,192084
+0ALzErEpvwCoRvXogdlBup,Buy Myself (Marilyn Manson Remix) - B-Side Rarities,"['Linkin Park', 'Marilyn Manson']",0.626,0.941,-4.668,0.118,0.00343,0.365,267551
+1DVXrmuh4umsD96KRTsGHl,Talking to Myself - One More Light Live,['Linkin Park'],0.466,0.725,-7.79,0.0568,0.00728,0.342,316533
+0zKs47fghFBtrEpxyUR1Wz,Burn It Down - One More Light Live,['Linkin Park'],0.658,0.781,-6.472,0.0509,0.0,0.542,253573
+7mXJEniTl79NSO50M2HjBU,Battle Symphony - One More Light Live,['Linkin Park'],0.577,0.915,-4.964,0.0465,2.03e-05,0.656,225133
+6dWGJ5acTiipYqVpNyOTKd,New Divide - One More Light Live,['Linkin Park'],0.463,0.87,-5.955,0.0473,1.66e-06,0.26,270560
+5BXGP4IsPuXSVNQYZLQCuD,Invisible - One More Light Live,['Linkin Park'],0.535,0.657,-9.407,0.105,2.09e-06,0.3,270187
+6LYZAzd9FoPEecenhggMsy,Nobody Can Save Me - One More Light Live,['Linkin Park'],0.544,0.678,-7.962,0.0618,1.32e-06,0.487,239987
+1r8qywTSOGQvFxQnzcyiBj,One More Light - One More Light Live,['Linkin Park'],0.254,0.298,-12.873,0.0334,4.33e-05,0.0883,259387
+0w4ZwKHHEkXtvHMNUjFPdB,Crawling - One More Light Live,['Linkin Park'],0.289,0.303,-12.032,0.0382,0.0,0.208,209493
+3KVVhZUYs77OSujKlvWEXy,Leave Out All The Rest - One More Light Live,['Linkin Park'],0.413,0.694,-7.984,0.0562,0.00172,0.276,290720
+4IlB0WKdchGUPa4WoAYy5D,Good Goodbye (feat. Stormzy) - One More Light Live,"['Linkin Park', 'Stormzy']",0.676,0.865,-7.685,0.123,0.0,0.271,248880
+3WiZLAoMqPPN2ZIHEBYbkU,What I've Done - One More Light Live,['Linkin Park'],0.531,0.859,-6.138,0.0383,0.00265,0.29,273440
+2lWX5GTGfy6QGkwOzJORBC,In the End - One More Light Live,['Linkin Park'],0.355,0.89,-6.637,0.15,0.0,0.287,228187
+0OdZJLUjIwcp9zUM9cXLia,Sharp Edges - One More Light Live,['Linkin Park'],0.425,0.453,-8.354,0.0671,1.16e-06,0.191,287547
+3r7ob3H6WJJA0mf8eT9jQZ,Numb - One More Light Live,['Linkin Park'],0.326,0.796,-6.507,0.109,0.0,0.32,230573
+1DXkvUT5CjmVqqMuW1NjwI,Heavy - One More Light Live,['Linkin Park'],0.461,0.862,-7.135,0.0965,0.0,0.306,176413
+3DS8KFBg3J8IfRW5u8Cu2l,Bleed It Out - One More Light Live,['Linkin Park'],0.372,0.966,-6.049,0.134,0.0,0.214,297240
+3dJj6o9o1fRgrojWjailuz,Nobody Can Save Me,['Linkin Park'],0.645,0.688,-4.749,0.0341,0.0,0.433,225547
+650OeHTLxZAQmb4aEbGmaA,Good Goodbye (feat. Pusha T and Stormzy),"['Linkin Park', 'Pusha T', 'Stormzy']",0.697,0.84,-4.602,0.054,0.0,0.452,211413
+7nAfXgeHfDO50upcOjJOaq,Talking to Myself,['Linkin Park'],0.593,0.712,-6.325,0.0286,0.0,0.473,231307
+3FQCJI2t5LTbsRPfYVBSVB,Battle Symphony,['Linkin Park'],0.653,0.839,-5.077,0.0685,0.0,0.669,216281
+6OocN63GLU7NF0wHdewhID,Invisible,['Linkin Park'],0.47,0.74,-6.093,0.07,0.0,0.562,214347
+104buTcnP2AsxqB7U1FIZ4,Heavy (feat. Kiiara),"['Linkin Park', 'Kiiara']",0.59,0.671,-6.098,0.0706,0.0,0.438,169801
+34isqXjbTstbYwl2MfdzDq,Sorry for Now,['Linkin Park'],0.608,0.584,-6.652,0.0352,0.0,0.251,203653
+1KvyBpAxgllKW7bQb0GYCR,Halfway Right,['Linkin Park'],0.655,0.626,-7.155,0.045,0.0,0.498,217067
+3xXBsjrbG1xQIm1xv1cKOt,One More Light,['Linkin Park'],0.593,0.2,-11.063,0.0311,0.0,0.17,255067
+6c0I7CfL9ziGZN8yYkLppP,Sharp Edges,['Linkin Park'],0.652,0.714,-5.678,0.0562,0.0,0.624,178200
+7tfIKvebrzgBzxNZe1Hyox,Keys to the Kingdom - Acapella,['Linkin Park'],0.563,0.442,-5.755,0.881,0.0,0.451,218556
+1iRceKmgsTM0Jzdffv67in,All for Nothing (feat. Page Hamilton) - Acapella,"['Linkin Park', 'Page Hamilton']",0.708,0.573,-6.727,0.571,0.0,0.312,213662
+7lh5Qtd8qLz5pgXKJt5Jec,Guilty All the Same (feat. Rakim) - Acapella,"['Linkin Park', 'Rakim']",0.586,0.226,-8.807,0.915,0.0,0.201,353596
+5EzXYmk7GMqhP5IKlNBLIi,War - Acapella,['Linkin Park'],0.447,0.683,-10.594,0.425,0.00125,0.0735,131169
+5ptisa1hZfLqIsAYaBEMWT,Wastelands - Acapella,['Linkin Park'],0.611,0.741,-4.657,0.862,0.0,0.358,195902
+1iayd5QSaeKsCEn21bSFmx,Until It's Gone - Acapella,['Linkin Park'],0.547,0.394,-9.029,0.0681,0.0,0.338,233249
+4XDGzPuDpogrEba7nHWjgK,Rebellion (feat. Daron Malakian) - Acapella,"['Linkin Park', 'Daron Malakian']",0.584,0.681,-5.547,0.322,0.0,0.303,224169
+1JKM9DcIhYQkBEihshkMU4,Mark the Graves - Acapella,['Linkin Park'],0.457,0.0671,-9.572,0.249,0.0,0.286,305022
+2NUkzVPcw4SRv7XAjswERg,Final Masquerade - Acapella,['Linkin Park'],0.67,0.464,-7.273,0.0947,0.0,0.234,217622
+7citf5214AFYEe8k5anqu3,A Line in the Sand - Acapella,['Linkin Park'],0.751,0.0491,-8.541,0.249,0.0,0.254,395062
+5N8EMF3Vno5yCkl2V4Evyb,Keys to the Kingdom - Instrumental,['Linkin Park'],0.34,0.98,-4.867,0.0756,0.741,0.234,208560
+3qQ3smLfkubCmu1x4oaMSe,All for Nothing - Instrumental,"['Linkin Park', 'Page Hamilton']",0.409,0.96,-4.109,0.0592,0.857,0.334,194160
+3xyQawzvHeSMGowhomelrY,Guilty All the Same - Instrumental,['Linkin Park'],0.474,0.962,-4.859,0.037,0.737,0.541,354453
+7mJ0Yleg3osX2YFaoOm6dh,The Summoning - Instrumental,['Linkin Park'],0.281,0.907,-8.658,0.782,0.273,0.0739,62080
+6g0wJaNmyDaD9T0jgu1cH5,War - Instrumental,['Linkin Park'],0.372,0.985,-3.342,0.17,0.873,0.155,125080
+1f5JvzsEzhxkarNMnbsIPH,Wastelands - Instrumental,['Linkin Park'],0.412,0.992,-4.919,0.0862,0.889,0.64,198000
+1TwRzVJbLiSpn1Zvg1qdJT,Until It's Gone - Instrumental,['Linkin Park'],0.496,0.874,-4.475,0.0369,0.643,0.318,221040
+5NqrrghKiFxeFKnE5pHJHJ,Rebellion - Instrumental,['Linkin Park'],0.485,0.977,-3.571,0.0551,0.826,0.352,225133
+4RMx1uAqYzktbxwtzeQ6qh,Mark the Graves - Instrumental,['Linkin Park'],0.436,0.938,-3.894,0.0804,0.713,0.149,302093
+5UPMgH2n4WCfq1qiH2wiRM,Drawbar - Instrumental,['Linkin Park'],0.39,0.535,-12.24,0.0296,0.955,0.0521,191547
+01cQH1jlneRfdx0WEZXdl3,Final Masquerade - Instrumental,['Linkin Park'],0.503,0.832,-5.681,0.0408,0.749,0.393,220293
+7xoND4TuKzKiLOIMZI2TF9,A Line in the Sand - Instrumental,['Linkin Park'],0.533,0.952,-5.343,0.0596,0.828,0.0367,397773
+2cZXlLwkRmDww37tbEygXl,Keys to the Kingdom,['Linkin Park'],0.395,0.976,-4.553,0.137,0.000222,0.334,218547
+5Rcs3fREgibWujLUlUb8KA,All for Nothing (feat. Page Hamilton),"['Linkin Park', 'Page Hamilton']",0.461,0.958,-3.852,0.124,9.33e-06,0.264,213653
+6L5QMBrydoaapTDMQ0Anui,Guilty All the Same (feat. Rakim),"['Linkin Park', 'Rakim']",0.566,0.969,-3.369,0.046,0.000442,0.641,355120
+7wHW68IXAO0vlhXv1PxKFJ,The Summoning,['Linkin Park'],0.294,0.926,-8.833,0.769,0.0992,0.0397,60440
+3h5gMWp1KJQkLBgCtG5EgH,War,['Linkin Park'],0.371,0.991,-3.237,0.254,0.651,0.0757,131160
+3S8MFB68isPbRVgaU0MaIW,Wastelands,['Linkin Park'],0.44,0.993,-3.481,0.184,0.0,0.614,195893
+2n1jBz26dVBtSbMvJNjGsu,Until It's Gone,['Linkin Park'],0.47,0.878,-3.391,0.0429,0.054,0.322,233240
+3zZ009FB8sc8JghwVrbLFq,Rebellion (feat. Daron Malakian),"['Linkin Park', 'Daron Malakian']",0.508,0.971,-3.027,0.0788,0.0,0.325,224160
+16AFbRYIdpesOleGTKClHs,Mark the Graves,['Linkin Park'],0.442,0.925,-3.781,0.0648,0.496,0.196,305013
+7MTDaY5oGjo4F8N5r7H8LT,Drawbar (feat. Tom Morello),"['Linkin Park', 'Tom Morello']",0.389,0.532,-10.796,0.028,0.923,0.0637,166933
+3aYBjxTMvrEOP0A0UXg9ER,Final Masquerade,['Linkin Park'],0.466,0.852,-4.487,0.0585,2.6e-06,0.428,217613
+4BRvD5QdauTo8EuUvYchu3,A Line in the Sand,['Linkin Park'],0.291,0.922,-4.968,0.0885,0.0198,0.0404,395067
+3BnBKNItMng824sLx0pUfy,A LIGHT THAT NEVER COMES,"['Linkin Park', 'Steve Aoki']",0.687,0.871,-5.531,0.0689,0.00708,0.539,229439
+0tJ8EAv8Kf1mHFXZMofVvZ,CASTLE OF GLASS - M. Shinoda Remix,"['Linkin Park', 'Mike Shinoda']",0.473,0.858,-4.982,0.0533,0.242,0.0439,380307
+4RYvz692bYUEEyMythKdFE,LOST IN THE ECHO - KillSonik Remix,"['Linkin Park', 'KillSonik']",0.456,0.839,-4.615,0.0555,0.00189,0.0584,309040
+0lHHU21bJhZEnu7O4Tps4H,VICTIMIZED - M. Shinoda Remix,"['Linkin Park', 'Mike Shinoda']",0.535,0.982,-2.003,0.107,0.0483,0.576,179707
+6n7zWyWIs43JsKwSe2qzhI,I'LL BE GONE (feat. Pusha T) - Vice Remix,"['Linkin Park', 'Pusha T', 'DJ Vice']",0.557,0.963,-3.015,0.0544,1.69e-05,0.437,240680
+322oPcR7x1tFvaVtbNbyuK,LIES GREED MISERY - Dirtyphonics Remix,"['Linkin Park', 'Dirtyphonics']",0.457,0.909,-4.458,0.171,0.037,0.333,290573
+1J7ADXGHxcm0W4ftGL6u8b,ROADS UNTRAVELED (feat. Bun B) - Rad Omen Remix,"['Linkin Park', 'Bun B', 'Rad Omen']",0.544,0.612,-6.966,0.0524,2.47e-06,0.315,328093
+5150defNCFB2QSqEMpVIJ7,POWERLESS - Enferno Remix,"['Linkin Park', 'Enferno']",0.589,0.736,-4.106,0.141,0.00312,0.457,367707
+1buWPBwvTd6VnIdBV48yQM,BURN IT DOWN - Tom Swoon Remix,"['Linkin Park', 'Tom Swoon']",0.501,0.924,-2.644,0.108,0.0103,0.176,286453
+1ndc6g4xuCjSHfGgk2NMvt,UNTIL IT BREAKS - Datsik Remix,"['Linkin Park', 'Datsik']",0.49,0.923,-2.366,0.0437,0.00478,0.378,360560
+6jY7IkH2uf1vZPGyqb8wO7,SKIN TO BONE (feat. Cody B. Ware and Ryu) - Nick Catchdubs Remix,"['Linkin Park', 'Cody B. Ware', 'Ryu']",0.433,0.827,-3.816,0.282,0.0,0.655,234187
+14VodXDA5aMpRqn2Ogbswo,I'LL BE GONE - Schoolboy Remix,"['Linkin Park', 'Schoolboy']",0.629,0.902,-1.084,0.0344,0.00881,0.18,371653
+3ECYJn1NtdkBmIbqsIeVLR,UNTIL IT BREAKS - Money Mark Headphone Remix,"['Linkin Park', 'Money Mark']",0.32,0.885,-3.984,0.321,0.000265,0.29,269773
+4p8YUo0IMnslJNxknDL0ey,A LIGHT THAT NEVER COMES - Rick Rubin Reboot,"['Linkin Park', 'Rick Rubin']",0.756,0.751,-5.636,0.0401,0.0495,0.586,280027
+2CY69lML4UsQ90HgVW3Rdz,LOST IN THE ECHO - Instrumental,['Linkin Park'],0.514,0.982,-4.246,0.0408,0.957,0.702,205720
+7c18kchI7NRTAOPrGcPzdy,IN MY REMAINS - Instrumental,['Linkin Park'],0.492,0.957,-7.359,0.04,0.79,0.0973,202611
+3Sx7miLHvMXU2DZ4iiuhy7,BURN IT DOWN - Instrumental,['Linkin Park'],0.524,0.987,-6.461,0.0543,0.946,0.566,230443
+5n4PdP0YlCbUAnZf1x2T8v,LIES GREED MISERY - Instrumental,['Linkin Park'],0.497,0.958,-6.497,0.0538,0.787,0.605,146080
+794F2yJqD7OAl0KW25HXMI,I'LL BE GONE - Instrumental,['Linkin Park'],0.506,0.931,-5.653,0.032,0.924,0.423,212137
+40icVPMCc6t7sTAksM6GV5,CASTLE OF GLASS - Instrumental,['Linkin Park'],0.673,0.9,-6.504,0.0268,0.882,0.667,205670
+6KF8ibBvZzdimxYEzsJn6N,VICTIMIZED - Instrumental,['Linkin Park'],0.426,0.988,-4.839,0.133,0.792,0.138,108535
+0jqYxxoX9FE3Lp3APmO6b0,ROADS UNTRAVELED - Instrumental,['Linkin Park'],0.581,0.768,-7.464,0.0288,0.911,0.246,230459
+4fhHDPpZOibYALigGQ7ui4,SKIN TO BONE - Instrumental,['Linkin Park'],0.554,0.98,-4.954,0.0421,0.814,0.777,168233
+5YgO1YFF052bTgAQ1L2sjm,UNTIL IT BREAKS - Instrumental,['Linkin Park'],0.465,0.684,-8.556,0.263,0.809,0.319,235761
+2olJQ8BNzi1ZglbkNmrU5z,TINFOIL / POWERLESS - Instrumental,['Linkin Park'],0.596,0.755,-8.407,0.031,0.95,0.468,303872
+32RrerIkxJXexoS4b4H0wl,LOST IN THE ECHO - Acapella,['Linkin Park'],0.742,0.791,-7.651,0.283,0.0,0.643,176845
+0WcQgWmEWUxHvcYhKRZtTq,IN MY REMAINS - Acapella,['Linkin Park'],0.656,0.4,-8.821,0.0787,0.0,0.325,163958
+3kZGc67pfba76tkIGg2brD,BURN IT DOWN - Acapella,['Linkin Park'],0.387,0.484,-7.625,0.0769,0.0,0.631,176218
+73pnoa7jon3XjGl7GIWJ3k,LIES GREED MISERY - Acapella,['Linkin Park'],0.66,0.871,-7.166,0.521,0.0,0.481,134841
+4pu54AJZCQsMD1BZiuOvPZ,I'LL BE GONE - Acapella,['Linkin Park'],0.482,0.533,-7.431,0.0789,0.0,0.43,179756
+59AtAEg6zGvLOp2oa1NtZq,CASTLE OF GLASS - Acapella,['Linkin Park'],0.293,0.386,-7.754,0.054,0.0,0.0645,169074
+3EPjrE0pAlRrSkkPN7EzLd,VICTIMIZED - Acapella,['Linkin Park'],0.73,0.824,-6.951,0.432,0.0,0.519,74896
+3Beexlj6IkS2CnvPoxgLMR,ROADS UNTRAVELED - Acapella,['Linkin Park'],0.459,0.175,-15.68,0.0468,0.0,0.196,191063
+0jw00DFjpx3AjcPtVCS1st,SKIN TO BONE - Acapella,['Linkin Park'],0.365,0.509,-7.934,0.0849,0.0,0.194,157631
+4E1qOPflKFdZCWSNiNTs18,UNTIL IT BREAKS - Acapella,['Linkin Park'],0.42,0.534,-7.843,0.131,0.0,0.334,223363
+2IJXHa0lRXjwTCLmGvFk17,POWERLESS - Acapella,['Linkin Park'],0.308,0.235,-9.559,0.0504,0.0,0.17,206953
+2oNYsdCasRRlz1shXFAz7D,LOST IN THE ECHO,['Linkin Park'],0.546,0.98,-3.02,0.0619,0.0,0.478,205120
+00KfIFi2TpAaQGPbRbFbKJ,IN MY REMAINS,['Linkin Park'],0.553,0.907,-5.623,0.0484,0.0,0.451,200693
+7oVEtyuv9NBmnytsCIsY5I,BURN IT DOWN,['Linkin Park'],0.585,0.972,-4.45,0.0534,0.0,0.585,230253
+3aZQQWGNShP6IzzaprPlFX,LIES GREED MISERY,['Linkin Park'],0.545,0.962,-4.552,0.14,0.0,0.539,146493
+3cQGb2POE359G9WH81bF60,I'LL BE GONE,['Linkin Park'],0.501,0.927,-4.58,0.0292,0.0,0.611,211093
+1r1fPuhj9H4VdXr7OK6FL5,CASTLE OF GLASS,['Linkin Park'],0.615,0.911,-3.584,0.0278,0.00188,0.685,205400
+35jdp4bY3CABKBroODRq7Y,VICTIMIZED,['Linkin Park'],0.557,0.99,-3.902,0.194,3.14e-05,0.128,106360
+1dYw8HTRJnFpeEeMtXj99a,ROADS UNTRAVELED,['Linkin Park'],0.599,0.788,-6.25,0.0294,0.00525,0.581,229933
+4JqgUZ4yZqjeEmgJNsuUjX,SKIN TO BONE,['Linkin Park'],0.471,0.977,-3.593,0.054,0.0777,0.762,168347
+2ww2xnkptug8KwF6XzEwMq,UNTIL IT BREAKS,['Linkin Park'],0.316,0.835,-6.67,0.321,0.000774,0.415,223400
+5zoETs17V8PJkeGmB0Iagw,TINFOIL,['Linkin Park'],0.519,0.557,-15.587,0.0356,0.929,0.734,71893
+4zNk347FJz4yDDcjUhJJMI,POWERLESS,['Linkin Park'],0.508,0.88,-6.441,0.0448,9.43e-05,0.337,224467
+5qVfqVsvV63u8DRgUliOat,"The Requiem - Live from London, 2010",['Linkin Park'],0.224,0.92,-8.013,0.822,0.941,0.212,150373
+2IRcemSQkebFFSJzKMPuJO,"Burning in the Skies - Live from Hamburg, 2011",['Linkin Park'],0.549,0.822,-5.256,0.0296,0.000169,0.423,252347
+3W6wt17UMiFX6EdBhMVNk7,"When They Come for Me - Live from Paris, 2010",['Linkin Park'],0.527,0.894,-5.442,0.0691,0.000493,0.373,306653
+6dwcaaJTC48P2lczqNeKYF,"Jornada Del Muerto - Live from Hamburg, 2011",['Linkin Park'],0.348,0.887,-6.016,0.0596,0.415,0.142,110587
+6FtRJ2dpTXiM2CJpCmbNmQ,"Waiting for the End - Live from Berlin, 2010",['Linkin Park'],0.46,0.953,-3.786,0.0765,0.0,0.47,236493
+09BTGJncSNugrc4NCJIUz2,"Blackout - Live from Hamburg, 2011",['Linkin Park'],0.486,0.922,-4.152,0.119,0.000227,0.492,274467
+1FlxexnEAvFjZ68pIC5V0U,"Wretches and Kings - Live from Las Vegas, 2011",['Linkin Park'],0.336,0.988,-3.098,0.313,0.0,0.323,234653
+5N85ZXYcyE9zb3gTM00ZX0,"Iridescent - Live from Paris, 2010",['Linkin Park'],0.448,0.775,-5.278,0.0364,0.00614,0.226,298893
+7s0AzAsgCPL2J39J1YVOQ8,"The Catalyst - Live from Paris, 2010",['Linkin Park'],0.531,0.941,-4.756,0.0376,0.0,0.206,354187
+1hA4856JVAa0qqgKg6olJf,"The Messenger - Live from Las Vegas, 2011",['Linkin Park'],0.325,0.409,-5.711,0.0295,1.3e-05,0.187,233280
+4UQEFUm8AjNHr5C7pHM3pb,"Wake - Live from Taipei, 2007",['Linkin Park'],0.0742,0.385,-6.932,0.0456,0.696,0.0396,108133
+6ePB1KPRCmBRa2nytGmG2f,"Given Up - Live from Taipei, 2009",['Linkin Park'],0.429,0.99,-2.976,0.107,0.00011,0.175,198387
+0wrNtzrR9SHyYFgModa9Lh,"Leave Out All The Rest - Live from Frankfurt, 2008",['Linkin Park'],0.369,0.796,-4.761,0.0386,1.38e-05,0.332,202253
+7Ci6ZaZoWCRp4bLgH7hCxf,"Bleed It Out - Live from Melbourne, 2010",['Linkin Park'],0.327,0.984,-2.625,0.0903,1.26e-05,0.246,333613
+5T4czn7t6EhWExgLpzqiAD,"Shadow of the Day - Live from Melbourne, 2010",['Linkin Park'],0.401,0.686,-4.109,0.0431,4.05e-06,0.282,272667
+0kJXSHYFvdNseXMoAly9ot,"What I've Done - Live from New York, 2008",['Linkin Park'],0.392,0.905,-3.845,0.0529,1.58e-05,0.116,297987
+7iLjr8XofSp2GIhnVki39S,"Hands Held High - Live from Osaka, 2007",['Linkin Park'],0.422,0.876,-5.719,0.0544,1.44e-05,0.249,239040
+1Iipu8AAvtlXtrrIU94izs,"No More Sorrow - Live from Taipei, 2009",['Linkin Park'],0.386,0.99,-3.359,0.103,0.000237,0.108,297160
+2eappwDbPd9yG8nchwBd6i,"Valentine's Day - Live from Amnéville, 2008",['Linkin Park'],0.402,0.788,-4.849,0.0405,0.237,0.246,201333
+6Vg9jszAlzSbclDQPK2DrI,"In Between - Live from Paris, 2008",['Linkin Park'],0.364,0.802,-7.386,0.0469,0.000119,0.19,197813
+77meY6pGfgxUqqx8ErNBaK,"In Pieces - Live from Koln, 2008",['Linkin Park'],0.411,0.869,-4.77,0.0589,0.0,0.506,222920
+4crxUuFCqeLhEy3VbVGhtK,"The Little Things Give You Away - Live from Shanghai, 2007",['Linkin Park'],0.317,0.545,-6.121,0.0327,0.000444,0.0771,463160
+6LiIstY78Sj6W6cJ8HVETy,"Don't Stay - Live in Shanghai, 2007",['Linkin Park'],0.279,0.957,-3.298,0.0934,0.000346,0.412,196893
+5dQl5ZCgyXQKZR2IJcKdpg,"Somewhere I Belong - Live in Koln, 2008",['Linkin Park'],0.298,0.967,-3.722,0.103,0.0,0.384,249160
+17v21SAW5oUOn6XwCtzkxI,"Lying from You - Live in New York, 2008",['Linkin Park'],0.245,0.967,-3.401,0.197,0.0,0.483,177600
+6vgL8caXCigDw6THEKqqa4,"Faint - Live in Hamburg, 2011",['Linkin Park'],0.406,0.986,-3.393,0.155,0.0,0.184,221533
+0rwncgTIcvArbZoEJiDsbo,"Breaking the Habit - Live in Hamburg, 2011",['Linkin Park'],0.419,0.946,-3.955,0.0421,0.0,0.441,255987
+1pIp02rdzvluvWaHJ7ZZgM,"From the Inside - Live in Sydney, 2010",['Linkin Park'],0.374,0.936,-3.309,0.0579,1.96e-05,0.345,208867
+7pEVSKee47uKeqtazaiCnO,"Numb - Live in New York, 2008",['Linkin Park'],0.418,0.863,-4.766,0.0411,0.0,0.133,221693
+6IBGNhgrzFTYargw9ICM3d,"Papercut - Live from Paris, 2010",['Linkin Park'],0.337,0.994,-3.787,0.145,0.0,0.205,188147
+6CycnO02O5PIh36NNWaAyq,"One Step Closer - Live from Frankfurt, 2008",['Linkin Park'],0.339,0.977,-3.852,0.0815,0.00428,0.173,253013
+2Bh8s0lAxPVD7Cvs4S0B8P,"Points of Authority - Live from Sidney, 2007",['Linkin Park'],0.276,0.989,-2.937,0.168,0.0,0.212,247360
+7cOy4U8wmklfWrXTBaT31R,"Crawling - Live from Athens, 2009",['Linkin Park'],0.49,0.738,-5.345,0.0424,1.21e-06,0.286,281093
+1wKMscFFxqnulkoG3ivXjB,"In the End - Live from Melbourne, 2010",['Linkin Park'],0.213,0.874,-3.719,0.0505,0.0,0.398,213387
+1No4slj6rjm5pHvpBl0liW,"A Place for My Head - Live from Koln, 2008",['Linkin Park'],0.363,0.995,-4.451,0.368,7.27e-06,0.121,237253
+4NBdczdUrgSgejgE7NLZmj,"Cure for the Itch - Live from Perth, 2007",['Linkin Park'],0.56,0.976,-4.808,0.187,0.917,0.365,103293
+79y9yqpX1u1QBfzZMGBt0r,"Pushing Me Away - Live from Dallas, 2007",['Linkin Park'],0.291,0.46,-8.924,0.0459,0.0,0.368,221053
+56k09emMLjXvPwuVyjR4tn,The Requiem,['Linkin Park'],0.37,0.55,-11.393,0.304,0.264,0.031,121120
+12wyPGBsfNQMEmFw2ezut7,The Radiance,['Linkin Park'],0.348,0.925,-10.886,0.546,0.000363,0.0381,57800
+45Wip7bDtu3hnyGvKyVw2N,Burning in the Skies,['Linkin Park'],0.607,0.891,-4.56,0.0387,0.00521,0.462,253160
+4ZMAtS2hylkMvn0DyBRNnO,Empty Spaces,['Linkin Park'],0.333,0.78,-16.711,0.0701,0.9,0.038,18333
+26mWgYHPpUhDWaYS9xxkXG,When They Come for Me,['Linkin Park'],0.547,0.936,-4.232,0.049,0.27,0.445,293453
+5Z6g6zZwPX6sLw9wU3nJaM,Robot Boy,['Linkin Park'],0.58,0.784,-5.739,0.0289,0.00912,0.214,268987
+5DyMj79ijY8WptFX8YJxDS,Jornada Del Muerto,['Linkin Park'],0.336,0.854,-9.195,0.125,0.81,0.111,94907
+1m8YW1nU72t7wVfhcnxmMB,Waiting for the End,['Linkin Park'],0.487,0.961,-4.139,0.132,1.15e-06,0.323,231680
+29vUteiVAmoATNgtKNspwU,Blackout,['Linkin Park'],0.543,0.923,-3.992,0.0768,0.00446,0.366,279453
+0vRgzWez6fnm5sUtSHc7tu,Wretches and Kings,['Linkin Park'],0.595,0.961,-4.342,0.153,1.2e-06,0.588,250587
+7Gbjei1p56xPpZ5DOcobdM,"Wisdom, Justice, and Love",['Linkin Park'],0.37,0.796,-13.52,0.43,0.647,0.0459,98773
+0ZBkcdylzhCQeomLIN4byJ,Iridescent,['Linkin Park'],0.484,0.727,-6.107,0.0358,0.00204,0.216,296560
+5oalZAqETYfixh9TIbWeIQ,Fallout,['Linkin Park'],0.108,0.151,-19.382,0.0388,0.464,0.0333,83053
+1lpmizSjiSELgfpiV4Hrl4,The Catalyst,['Linkin Park'],0.56,0.925,-5.48,0.0362,0.0,0.178,339853
+0ee40G4B8b2qjY0mWWc6ss,The Messenger,['Linkin Park'],0.527,0.209,-12.113,0.0283,0.0,0.362,181893
+2CtNB8Fg3FB9IeT2aUSdR2,"New Divide - Live from La Caja Mágica, Madrid, Spain, 11/7/2010",['Linkin Park'],0.51,0.938,-3.02,0.0466,0.0,0.297,275653
+6Kj5dYOis2XgxWsQ5ZosFh,"Waiting for the End - Live from La Caja Mágica, Madrid, Spain, 11/7/2010",['Linkin Park'],0.228,0.942,-4.992,0.153,5.33e-06,0.374,244813
+2Guic2ezvzJ08yfYMJqWoY,"Breaking the Habit - Live from La Caja Mágica, Madrid, Spain, 11/7/2010",['Linkin Park'],0.448,0.915,-3.542,0.0587,0.0,0.316,240760
+6apD1rHFvgzkfxfBS6emfT,"The Catalyst - Live from La Caja Mágica, Madrid, Spain, 11/7/2010",['Linkin Park'],0.512,0.949,-3.883,0.0444,0.0,0.0645,357440
+6sACZeHkMxXrKp2LHkZEsa,"In the End - Live from La Caja Mágica, Madrid, Spain, 11/7/2010",['Linkin Park'],0.245,0.949,-3.68,0.0917,0.0,0.362,228027
+6WAQvn0ALoF0s1q9HHfQ0z,"What I've Done - Live from La Caja Mágica, Madrid, Spain, 11/7/2010",['Linkin Park'],0.562,0.924,-3.288,0.0331,0.0,0.34,212507
+0zraM3kiqKEEiTNyBVnlHt,The Requiem,['Linkin Park'],0.37,0.55,-11.393,0.304,0.264,0.031,121120
+2cJUZUddCR3gZdBoo4buym,The Radiance,['Linkin Park'],0.348,0.925,-10.886,0.546,0.000363,0.0381,57800
+5dhnFKVNR2x9BYqQ6FPpQh,Burning in the Skies,['Linkin Park'],0.607,0.891,-4.56,0.0387,0.00521,0.462,253160
+1dxoNIDuvj8c7sWdHt39W4,Empty Spaces,['Linkin Park'],0.333,0.78,-16.711,0.0701,0.9,0.038,18333
+1uaIJkuGvwSu7qWHOwCYbV,When They Come for Me,['Linkin Park'],0.547,0.936,-4.232,0.049,0.27,0.445,293453
+0YSsNYXDK9ZQaSNEpx9VW4,Robot Boy,['Linkin Park'],0.58,0.784,-5.739,0.0289,0.00912,0.214,268987
+7vIDRSAh5QN20sd7VpzsRq,Jornada Del Muerto,['Linkin Park'],0.336,0.854,-9.195,0.125,0.81,0.111,94907
+5JHNg1hxZFT7TDEphhM4wj,Waiting for the End,['Linkin Park'],0.487,0.961,-4.139,0.132,1.15e-06,0.323,231680
+7N2zw7Yp5XLbDV1twQrFe7,Blackout,['Linkin Park'],0.543,0.923,-3.992,0.0768,0.00446,0.366,279453
+5U4RjLvUsjYaKu1dKWzSsP,Wretches and Kings,['Linkin Park'],0.595,0.961,-4.342,0.153,1.2e-06,0.588,250587
+49vJBI1FecKnhZq5Ga62j5,"Wisdom, Justice, and Love",['Linkin Park'],0.37,0.796,-13.52,0.43,0.647,0.0459,98773
+69ZEgPX0hxWXJIqkTlYz41,Iridescent,['Linkin Park'],0.484,0.727,-6.107,0.0358,0.00204,0.216,296560
+5Phqm7iMAdEQ3wxhqas3Nj,Fallout,['Linkin Park'],0.108,0.151,-19.382,0.0388,0.464,0.0333,83053
+5bvgRxco3jgSZ3SP8rueDA,The Catalyst,['Linkin Park'],0.56,0.925,-5.48,0.0362,0.0,0.178,339853
+0pQZMrYNcfwZbt2Zt0pjaA,The Messenger,['Linkin Park'],0.527,0.209,-12.113,0.0283,0.0,0.362,181893
+5KrQ4ememR3tu0CvcghC37,One Step Closer - Live,['Linkin Park'],0.353,0.979,-4.464,0.0942,0.000125,0.242,247067
+0kNBWrrqSJRFFa7Og0AE7s,From the Inside - Live,['Linkin Park'],0.334,0.859,-4.157,0.0428,0.00241,0.189,204693
+6QaSWSP0vgYskAC5wavVOW,No More Sorrow - Live,['Linkin Park'],0.405,0.972,-4.874,0.118,3.72e-05,0.186,306440
+1hJ9XhIoJx3ZA0Jkd4AyTz,Given Up - Live,['Linkin Park'],0.533,0.957,-4.421,0.0752,2.61e-06,0.312,195587
+1jDSKX57oOUIOwxUMTlhBN,Lying from You - Live,['Linkin Park'],0.296,0.949,-5.208,0.149,7.48e-05,0.431,199413
+7kaV7zzQfQcBn8arDIZ5CO,Hands Held High - Live,['Linkin Park'],0.5,0.936,-10.052,0.838,0.0,0.519,86573
+420MWw0PjwBeDBAOSL1QCL,Leave Out All The Rest - Live,['Linkin Park'],0.444,0.733,-6.829,0.0382,3.07e-06,0.233,203893
+0ZcnedxtJyygYUGMw2dYl4,Numb - Live,['Linkin Park'],0.473,0.776,-5.957,0.0387,0.0,0.0945,226120
+1XPf4kPMZmhxXViiv3CfSc,The Little Things Give You Away - Live,['Linkin Park'],0.432,0.477,-8.082,0.0286,0.00156,0.0605,439573
+4ochGpQdr0nAvXSsT3IS9j,Breaking the Habit - Live,['Linkin Park'],0.479,0.875,-6.774,0.0451,0.0,0.223,264627
+2rKUZWzBGldWgNJTHO4nUt,Shadow of the Day - Live,['Linkin Park'],0.292,0.559,-7.806,0.0297,0.00683,0.115,256853
+0kEnNqPqouueauMS6KsXa7,Crawling - Live,['Linkin Park'],0.273,0.47,-6.653,0.0301,0.00264,0.0451,297840
+08DZB5UIoQy4WpUdOevBFZ,In the End - Live,['Linkin Park'],0.487,0.854,-6.132,0.0519,0.0,0.252,230413
+3K5iAzOyBIlEz9UERniPYZ,Pushing Me Away - Live,['Linkin Park'],0.292,0.471,-7.694,0.0334,0.0,0.372,198787
+03FlTlqfp8fNQfXrvcZFk8,What I've Done - Live,['Linkin Park'],0.3,0.918,-5.418,0.0903,1.13e-05,0.22,301760
+54TSw5CeLFZu15srfUyWZ8,Numb / Encore - Live,"['JAY-Z', 'Linkin Park']",0.47,0.954,-4.943,0.262,1.04e-05,0.185,181867
+7i5PiN1HgRiYfFI9uYrYoB,Jigga What / Faint - Live,"['JAY-Z', 'Linkin Park']",0.434,0.975,-4.878,0.19,0.0,0.203,310520
+6jLGsYXIhfmWkqf0N3cxOF,Bleed It Out - Live,['Linkin Park'],0.252,0.955,-5.06,0.0731,0.000648,0.141,495000
+2XAplkg69ZFBqAvWkPynGm,Wake,['Linkin Park'],0.291,0.133,-11.381,0.0441,0.838,0.151,100625
+3WYAOSW2hvfr07Ww4xLrn1,Given Up,['Linkin Park'],0.642,0.873,-4.68,0.0449,0.000142,0.923,189338
+4w6jQFJZUBz2nCAjqaXSjF,Leave Out All The Rest,['Linkin Park'],0.505,0.626,-6.835,0.0354,3.17e-06,0.216,209391
+04klL0e4Den6eZV9nitQWT,Bleed It Out,['Linkin Park'],0.515,0.957,-4.252,0.053,0.0,0.596,164457
+6VfK6BuYSrjYm2w5hjUWN4,Shadow of the Day,['Linkin Park'],0.503,0.373,-8.367,0.0304,0.0289,0.044,289634
+1Zeo9glWlcZrqdmTPXoK9o,What I've Done,['Linkin Park'],0.625,0.917,-5.576,0.0313,0.0,0.305,205447
+3PvwlVjMxuAqN8rJc84zPg,Hands Held High,['Linkin Park'],0.335,0.567,-9.699,0.0416,0.000354,0.126,233194
+5ZIcLKQxzyI3nPnivwuylV,No More Sorrow,['Linkin Park'],0.558,0.933,-4.877,0.047,4.88e-06,0.461,221764
+6015DaBwB49tXWlmNPo64w,Valentine's Day,['Linkin Park'],0.64,0.64,-5.995,0.0291,0.0275,0.437,196885
+1YxwrB0UypHNMghmFM9ZQR,In Between,['Linkin Park'],0.454,0.498,-10.585,0.0417,0.00686,0.318,196804
+1NxBqfjNr4bFHQbZ65foDt,In Pieces,['Linkin Park'],0.512,0.874,-6.507,0.0415,7.08e-06,0.824,217988
+6R1yUVtY4dPrGFOD7Eghrl,The Little Things Give You Away,['Linkin Park'],0.556,0.491,-7.363,0.0286,9.9e-05,0.107,383507
+62pPrpXsLR3Hbdw6kkA99L,No Roads Left,['Linkin Park'],0.242,0.561,-4.833,0.0374,0.0,0.224,228726
+4dbveKUpOx62SiwXQCALQH,Across the Line,['Linkin Park'],0.494,0.905,-4.662,0.044,1.41e-05,0.383,190187
+2WeNHhMaE0jmPjHKktH0by,Given Up - Third Encore Session,['Linkin Park'],0.718,0.889,-3.099,0.0762,0.0463,0.797,188760
+5bp8r2lUzk4QOtoFeVPNZB,What I've Done - Distorted Remix,['Linkin Park'],0.565,0.894,-4.349,0.0433,0.0739,0.595,227573

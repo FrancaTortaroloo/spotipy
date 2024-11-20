@@ -25,11 +25,11 @@ def test_connection():
 
     except Error as e:
         print("Error al conectar a MySQL:", e)
-
+'''
     finally:
         if 'connection' in locals() and connection.is_connected():
             connection.close()
             print("Conexión a MySQL cerrada.")
-
+'''
 if __name__ == "__main__":
     test_connection()

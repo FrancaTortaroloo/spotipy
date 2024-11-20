@@ -1,34 +1,26 @@
 #%%
 import api_spotify_soporte as api
-import requests
-import json
-import mysql.connector
-from mysql.connector import errorcode
-import pandas as pd
+import test_connection as connection
 #%%
 #extraer albumes de linkin park
 sp = api.credenciales()
 
 #%%
-albumes_lp = sp.artist_albums("https://open.spotify.com/intl-es/artist/6XyY86QOPPrYVGvF9ch6wz?si=UNSuzA5zRGCs5dM8NHj91A", include_groups= 'album')
+artist_url = 'https://open.spotify.com/intl-es/artist/6XyY86QOPPrYVGvF9ch6wz?si=UNSuzA5zRGCs5dM8NHj91A'
 
 #%%
-#print(json.dumps(albumes_lp, indent = 4))
+tracks_artist = api.get_artist_tracks(sp, artist_url)
+tracks_artist
+#%%
+#obtener id de canciones 
+track_ids = tracks_artist['track_id'].tolist()
+features_df = api.get_track_features (sp, track_ids)
+#%%
+sql = connection.test_connection()
 # %%
-dicc_lp = api.extraer_info(albumes_lp)
-dicc_lp
-#%%
-id_canciones = api.obtener_tracks(sp, dicc_lp['id_album'])
-id_canciones
-#%%
-track_data = api.audio_features(sp, id_canciones)
-#%%
-track_data
-#%%
-csv = api.convertir_csv(dicc_lp, filename= 'albumes_lp.csv')
-csv
+crear_bbdd = api.conexion_sql()
 
-csv2 = api.convertir_csv(album_tracks, filename= 'album_tracks.csv')
-csv2
+#%%
+len(df_tracks)
 
 # %%
