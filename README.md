@@ -8,3 +8,15 @@ La extracción de datos y la creación de los csv lo hice desde Python, dentro d
 
 Además, se creó una base de datos llamada `BD_linkin_park`, 2 tablas llamadas `artist_tracks` y `track_features`. Todo esto se lo realiza desde Python.
 
+
+----------------------------------------------------
+
+Project: SQL Database Creation from Python
+
+As I once shared on my LinkedIn (https://www.linkedin.com/in/franca-tortarolo/), I realized that listening to the band Linkin Park helps me concentrate when programming and working on projects. This inspired me to explore the Spotify API (Spotipy) to extract detailed information about the band's albums and songs.
+
+With the extracted data, I created two CSV files: `artist_tracks.csv` and `track_features.csv`.
+
+The data extraction and CSV creation were done using Python. The `main.py` file processes the downloaded data and generates clean, transformed files. The core functionality of main.py is supported by the `api_spotify_soporte.py` file.
+
+Additionally, I created a database named `BD_linkin_park`, along with two tables: `artist_tracks` and `track_features`. All of this was implemented using Python.
